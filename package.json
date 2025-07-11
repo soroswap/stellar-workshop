@@ -5,7 +5,8 @@
   "author": "coderipper",
   "license": "MIT",
   "scripts": {
-    "restore": "ts-node src/restoreKey.ts"
+    "restore": "ts-node src/restoreKey.ts",
+    "workshop": "ts-node src/workshop-rio.ts"
   },
   "dependencies": {
     "@stellar/stellar-sdk": "^13.0.0",
