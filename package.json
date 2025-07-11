@@ -5,10 +5,11 @@
   "author": "coderipper",
   "license": "MIT",
   "scripts": {
-    "restore": "ts-node src/restoreKey.ts",
-    "workshop": "ts-node src/workshop-rio.ts"
+    "workshop": "ts-node src/workshop-rio.ts",
+    "soroswap": "ts-node src/soroswap.ts"
   },
   "dependencies": {
+    "@soroswap/sdk": "^0.3.2",
     "@stellar/stellar-sdk": "^13.0.0",
     "dotenv": "^16.4.7"
   },
